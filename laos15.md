@@ -8,3 +8,8 @@
 #### # source <(curl -Ls https://raw.githubusercontent.com/DrRamm/helper_scripts/drramm/laos15.md)
 
 repopick 187865 187860;
+#### # charger
+repopick 187951;
+
+#### # bt-caf
+cd hardware/qcom/bt-caf && git fetch https://review.lineageos.org/LineageOS/android_hardware_qcom_bt refs/changes/64/187864/1 && git checkout FETCH_HEAD && ../../../;
