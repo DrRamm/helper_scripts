@@ -16,7 +16,11 @@ cd hardware/qcom/bt-caf && git fetch https://review.lineageos.org/LineageOS/andr
 
 #### # system_bt 
 #### # p_inq->next_state += 1;
-repopick 185858
+repopick 185858;
 
 #### # tiny compress 
 cd external/tinycompress && git fetch https://review.lineageos.org/LineageOS/android_external_tinycompress refs/changes/39/185939/1 && git checkout FETCH_HEAD && cd ../../;
+
+
+#### # device/lineage/sepolicy
+repopick 188006;
