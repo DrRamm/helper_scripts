@@ -12,7 +12,7 @@ repopick 187865 187860;
 repopick 187951;
 
 #### # bt-caf
-cd hardware/qcom/bt-caf && git fetch https://review.lineageos.org/LineageOS/android_hardware_qcom_bt refs/changes/64/187864/1 && git checkout FETCH_HEAD && ../../../;
+cd hardware/qcom/bt-caf && git fetch https://review.lineageos.org/LineageOS/android_hardware_qcom_bt refs/changes/64/187864/1 && git checkout FETCH_HEAD && cd ../../../;
 
 #### # system_bt 
 #### # p_inq->next_state += 1;
