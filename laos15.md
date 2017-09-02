@@ -23,4 +23,4 @@ cd external/tinycompress && git fetch https://review.lineageos.org/LineageOS/and
 
 
 #### # device/lineage/sepolicy
-repopick 188006;
+#########################repopick 188006;
