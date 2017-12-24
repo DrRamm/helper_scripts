@@ -8,5 +8,7 @@ source ./build/envsetup.sh; repopick 187155 185671 185888 187146 196378;
 
 source ./build/envsetup.sh; repopick 198955 198028 198050 198775 198696;
 
-checkout sepolicy to this comit https://review.lineageos.org/#/c/199613/
+checkout sepolicy to this comit https://review.lineageos.org/#/c/199572/
+
+checkout keymaster to this https://review.lineageos.org/#/c/198793/
 
