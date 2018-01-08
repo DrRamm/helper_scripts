@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/xiaomi/msm8974" name="xiaomi-note-dev/android_device_xiaomi_virgo" revision="lineage-15.1-rebase" remote="github"/>
+	<project path="kernel/xiaomi/msm8974" name="xiaomi-note-dev/android_kernel_xiaomi_virgo" revision="lineage-15.1-rebase" remote="github"/>
+	<project path="vendor/xiaomi/msm8974" name="xiaomi-note-dev/android_vendor_xiaomi_virgo" revision="lineage-15.1-rebase" remote="github"/>
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="staging/lineage-15.1" remote="github"/>
+</manifest>
