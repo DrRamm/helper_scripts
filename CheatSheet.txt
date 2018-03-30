@@ -678,3 +678,6 @@ typedef enum {
 
 [102] ERROR: packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexServerSession.java:133: The method reduceMTU(boolean) is undefined for the type ServerSession
    * See [84]
+[103]
+adb pull /sys/fs/selinux/policy
+adb logcat -b all -d | audit2allow -p policy
